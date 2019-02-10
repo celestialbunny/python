@@ -17,7 +17,8 @@ user_details("Glo", "Lecturer")
 def apple_price(num_of_apples):
 	country = CountryInfo('Malaysia')
 	amount = num_of_apples * 1.15
-	return print(f"The price for {num_of_apples} will be {country.currencies()} {amount}")
+	return print(f"The price for {num_of_apples} apples will be {country.currencies()} {amount}")
+	# return print(f"The price for {num_of_apples} will be {amount}")
 apple_price(15)
 
 # Error 4
