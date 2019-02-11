@@ -53,3 +53,6 @@ wh_two.add_product(mcd)
 wh_two.__repr__()
 wh_three.add_product(h2o)
 wh_three.__repr__()
+
+for item in wh_one.products:
+	print(item.name)
